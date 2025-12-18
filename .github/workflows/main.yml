@@ -1,0 +1,11 @@
+name: My1
+on: workflow_dispatch
+
+jobs:
+  Print1:
+    runs-on: windows-latest
+    
+    steps:
+      - name: gjdlj
+        run: echo "Moscow"
+  
